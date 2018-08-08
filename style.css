@@ -1,0 +1,63 @@
+#container {
+  border: 1px solid #333;
+  border-radius: 20px;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background: #DDDDDD;
+}
+
+#timer {
+  color: #0b1aec;
+  font-size: 50px;
+  margin: 10px auto;
+  border: 5px solid #0b1aec;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+}
+
+#time {
+  margin-top: 33%;
+  z-index: 1;
+  position: relative;
+}
+
+#filler{
+  background: #ddffcc;
+  height: 0px;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#buttons button {
+  background: #008000;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+  padding:5px;
+  width:90px;
+  margin:10px auto;
+  font-size:14px;
+  height:50px;
+  border-radius:50px;
+}
+
+#buttons button#normal, button#longBreak  {
+  background: #ffa500;
+}
+
+#buttons button#stop {
+  background: #f00;
+}
+
+@media screen and (max-width: 500px) {
+  #container {
+    width: 200px;
+  }
+}
